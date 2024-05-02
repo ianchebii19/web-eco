@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramon Collection</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="ramon.css">
+    <style>
+      #breathing-button {
+        width:210px;
+        padding: 10px;
+        margin: 10 50px auto;
+        border: 1px solid #701015;
+        -webkit-animation: breathing 5s ease-out infinite normal;
+        animation: breathing 5s ease-out infinite normal;
+        font-family: 'Lantinghei SC';
+        font-size: 16px;
+        background: #09f056;
+        color: #fff;
+        -webkit-font-smoothing: antialiased;
+        border-radius: 8px;
+        text-align: center;
+      }
+      #breathing-button:hover{
+        background-color: #b7dda1;
+      }
+      #breathing-button a{
+        color: #f2f2f2;
+        text-decoration: none;
+        font-size:1.3rem ;
+      }
+      
+      @-webkit-keyframes breathing {
+        0% {
+          -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+        }
+        25% {
+          -webkit-transform: scale(1);
+          transform: scale(1);
+        }
+        60% {
+          -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+        }
+        100% {
+          -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+        }
+      }
+      
+      @keyframes breathing {
+        0% {
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9);
+        }
+        25% {
+          -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+          transform: scale(1);
+        }
+        60% {
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9);
+        }
+        100% {
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9);
+        }
+      
+      }
+      #contact{
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #809e76;
+        padding:20px 50px;
+        padding-bottom: 50px;
+        border-radius: 15px;
+        margin-top: 70px;
+        box-shadow: 3px 4px 4px 6px rgb(11, 12, 14);
+      
+      }
+      form {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 30px 20px;
+       
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    input[type="text"], textarea {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        background-color: aliceblue;
+    }
+    textarea {
+        height: 100px;
+        
+    }
+    input[type="submit"] {
+        background-color: #12cf12;
+        color: rgb(105, 12, 12);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    input[type="submit"]:hover {
+        background-color: rgb(247, 164, 10);
+        color: #1e07e7;
+        font-size: 1.2rem;
+    }
+    </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">Ramon Collection</div>
+    <div class="navbar">
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown">Products   <i id="bxc" class='bx bx-chevron-down bxc'></i></a>
+                <div class="dropdownMenu">
+                    <a href="suit.html">Suits</a>
+                    <a href="shirt.html">Shirts</a>
+                    <a href="shoe.html">Shoes</a>
+                    <a href="trouser.html">Trousers</a>
+                    <a href="socks.html">Belts</a>
+                <a href="watch.htm">Watches</a>
+                </div>
+            </li>
+            <li><a href="shop.html"> Shop</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Contact.html">Contacts</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a><span class="addCart">0</span></li>
+        </Ul>
+        
+    </div>
+    <div class="menuIco">
+        
+        <i id="far" class="fas fa-bars menuIcon"></i>
+        <i id="bxa" class='bx bx-x bxaa'></i>
+    </div>
+</div>
+<div class="sidebar">
+    <ul>
+        <li> <a href="index.html">Home</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropdown">Products   <i id="bxc" class='bx bx-chevron-down bxc' ></i></a>
+            <div class="dropdownMenu">
+                <a href="suit.html">Suits</a>
+                <a href="shirt.html">Shirts</a>
+                <a href="shoe.html">Shoes</a>
+                <a href="trouser.html">Trousers</a>
+                <a href="socks.html">Belts</a>
+                <a href="watch.htm">Watches</a>
+            </div>
+        </li>
+        <li><a href="shop.html"> Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Contact.html">Contacts</a></li>
+        <li><a href="blog.htm">Blog</a></li>
+        <li><a href="cart.html"><i class="fas fa-shopping-cart"></i></a><span class="addCart">0</span></li>
+    </Ul>
+</div>
+
+
+    <div id="contact" class="content">
+      <div>
+        <h1>Have a question?</h1>
+        <div id="breathing-button">
+          <a href="">
+           ChatUsOnWhatsapp
+          </a>
+        </div>
+        <div class="form">
+    
+            <form action="submit_form.php" method="post">
+              <label for="first_name">First Name:</label>
+              <input type="text" id="first_name" name="first_name" required placeholder="Ian">
+          
+              <label for="last_name">Last Name:</label>
+              <input type="text" id="last_name" name="last_name" required placeholder="Hebi">
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required placeholder="ianhebi@gmail.com">
+          
+              <label for="phone">Phone:</label>
+              <input type="text" id="phone" name="phone" required placeholder="+254700000000">
+          
+              <label for="comment">Comments</label>
+              <textarea id="comment" name="comment" required placeholder="How yan we assit you"></textarea>
+          
+              <input type="submit" value="Submit">
+          </form>
+          </div>
+      </div>
+    </div>
+
+
+
+
+    <footer class="footer">
+ 
+        <div class="foot">
+          <ul class="footer-links">Useful Links
+            <li><a href="index.html">Home</a></li>
+            <li><a href="suit.html">Suits</a></li>
+            <li><a href="shirt.html">Shirts</a></li>
+            <li><a href="shoe.html">Shoes</a></li>
+            <li><a href="socks.html">Belts</a></li>
+            <li><a href="watch.html">Watches</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="footer-content">
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>Email: info@ramoncollection.com</p>
+            <p>Phone: +254 123 456 789</p>
+            <p>Address: 123 Main Street, Nairobi, Kenya</p>
+          </div>
+          <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Ramon Collection. All rights reserved.</p>
+        </div>
+      </footer>
+
+ <script src="index.js"></script>
+</body>
+</html>
